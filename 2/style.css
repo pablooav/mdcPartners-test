@@ -1,37 +1,36 @@
- html {
-   box-sizing: border-box;
- }
- 
- /* * = Universal Selector */
- * {
-   box-sizing: inherit;
- }
- 
- body {
-   font-size: 1.2rem;
-   background: #434343;
- }
+html {
+  box-sizing: border-box;
+}
 
- h2 {
+/* * = Universal Selector */
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.2rem;
+  background: #434343;
+}
+
+h2 {
   font-size: 4rem;
   color: #fff;
   text-align: center;
   padding-top: 10rem;
- }
- 
- 
- .all {
+}
+
+.all {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
- }
+}
 
- .all .col {
+.all .col {
   padding: 0.5rem;
- }
+}
 
- span {
+span {
   font-size: 5rem;
   color: #434343;
   text-align: center;
@@ -39,6 +38,4 @@
   border-radius: 1rem;
   padding: 1rem;
   margin: 1rem;
- }
-
- 
+}
